@@ -1,0 +1,182 @@
+.auth-form {
+	justify-content: center;
+	height: 100%;
+}
+.divider {
+	display: flex;
+
+	&:before,
+	&:after {
+		content: "";
+		flex: 1;
+	}
+}
+
+.line {
+	align-items: center;
+	margin: 1em -1em;
+	color: #cccccc;
+
+	&:before,
+	&:after {
+		height: 1px;
+		margin: 0 1em;
+	}
+}
+
+.one-line {
+	&:before,
+	&:after {
+		background: #cccccc;
+	}
+}
+
+.facebook-color.ion-color-primary {
+	--ion-color-base: #4267b2 !important;
+}
+
+.express-icon {
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	width: 150px;
+	object-fit: fill;
+}
+.nail-thumb {
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.padding-top {
+	margin-top: 1em;
+}
+
+.item.item-input {
+	background-color: transparent;
+}
+.splash-header {
+	padding-top: 2em;
+	text-align: center;
+	font-family: SourceSansPro;
+	h2 {
+		font-weight: bolder;
+	}
+}
+.auth-form {
+	justify-content: center;
+	height: 100%;
+}
+.divider {
+	display: flex;
+
+	&:before,
+	&:after {
+		content: "";
+		flex: 1;
+	}
+}
+
+.line {
+	align-items: center;
+	margin: 1em -1em;
+	color: #cccccc;
+
+	&:before,
+	&:after {
+		height: 1px;
+		margin: 0 1em;
+	}
+}
+
+.one-line {
+	&:before,
+	&:after {
+		background: #cccccc;
+	}
+}
+
+.facebook-color.ion-color-primary {
+	--ion-color-base: #4267b2 !important;
+}
+
+.express-icon {
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	width: 150px;
+	object-fit: fill;
+}
+.nail-thumb {
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.padding-top {
+	margin-top: 1em;
+}
+
+.item.item-input {
+	background-color: transparent;
+}
+.splash-header {
+	padding-top: 2em;
+	text-align: center;
+	font-family: SourceSansPro;
+	h2 {
+		font-weight: bolder;
+	}
+}
+
+.secondary-button {
+	border: 1px solid #607d8b;
+	color: #607d8b;
+	border-radius: 5px;
+}
+
+.link-button {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+}
+
+.toggle-menu {
+	padding: 0;
+	.toggle-menu-items {
+		padding: 1em;
+		border-bottom: 1px solid #cccccc;
+		list-style: none;
+
+		.toggle-menu-icon {
+			padding-right: 1em;
+			font-size: 20px;
+		}
+	}
+}
+
+.log-out-button {
+	margin: 0;
+}
+.toggle-profile-icon {
+	font-size: 5em;
+	padding-left: 8px;
+}
+.view-profile{
+margin: 0;
+color: #03A9F4;
+}
+.profile-name{
+	margin: 0;
+}
+
+#container {
+	text-align: center;
+	color: #bdbdbd;
+	font-family: SourceSansPro;
+}

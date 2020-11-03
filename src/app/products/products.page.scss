@@ -1,0 +1,27 @@
+.selected-service {
+	border-bottom: 1px dashed #bdbdbd;
+	font-size: 12px;
+	padding-left: 8px;
+}
+
+.item-container {
+    height: calc(100% - 46px);
+}
+.item-cards {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	padding: 1em;
+	display: inline-block;
+	border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.quantity{
+height: 5px;
+width: 5px;
+background-color: #D32F2F;
+color: #ffffff;
+padding: 4px;
+border-radius: 50%;
+font-size: 8px;
+}

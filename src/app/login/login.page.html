@@ -1,0 +1,28 @@
+<ion-content class="auth-form">
+  <div class="splash-header">
+    <h2>Hello There !</h2>
+    <h5>Speed and Quality of service.</h5>
+  </div>
+<div class="nail-thumb">
+  <img src="../../assets/icon/express_icon_white.jpeg" alt="icon" class="express-icon">
+</div>
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-item color="transparent">
+          <ion-label position="floating">Username</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+  
+        <ion-item color="transparent">
+          <ion-label position="floating">Password</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+        <ion-button (click)="onLogin()" expand="block" color="transparent" class="padding-top secondary-button">Login
+          In</ion-button>
+          <ion-router-link color="primary" href="#" class="link-button">forgot credentials ?</ion-router-link>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

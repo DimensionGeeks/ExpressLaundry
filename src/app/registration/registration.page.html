@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>registration</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-item color="transparent">
+          <ion-label position="floating">First Name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+  
+        <ion-item color="transparent">
+          <ion-label position="floating">Last Name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+        <ion-item color="transparent">
+          <ion-label position="floating">Cell Number</ion-label>
+          <ion-input type='number'></ion-input>
+        </ion-item>
+
+        <ion-item color="transparent">
+          <ion-label position="floating">Email Address</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+        <ion-item color="transparent">
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type='password' ></ion-input>
+        </ion-item>
+
+        <ion-item color="transparent">
+          <ion-label position="floating">Confirm Password</ion-label>
+          <ion-input type='password'></ion-input>
+        </ion-item>
+
+        <ion-button (click)="onClickRegister()" expand="block" color="primary" class="padding-top">Create Account</ion-button>
+        <ion-button (click)="onClickRegister()" expand="block" color="google-red" class="padding-top google-button">
+          Sign In with Google
+          <ion-icon slot="start" name="logo-google"></ion-icon>
+        </ion-button>
+
+        <!-- <ion-button [routerLink]="['/registration']" expand="block" class="padding-top"
+          color="primary">Register</ion-button> -->
+          <!-- <ion-router-link color="primary" href="#" class="link-button">forgot credentials ?</ion-router-link> -->
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

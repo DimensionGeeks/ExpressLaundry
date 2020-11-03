@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="checkout-content">
+    <ion-row>
+      <ion-col align-self-center>
+        <label class="location-description">
+          Please enter location where you want your laundry pick up.
+        </label>
+        <ion-item color="transparent">
+          <ion-label position="floating">Enter Location</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+
+        <label class="location-description">
+          Please enter location where you want your laundry dropped off.
+        </label>
+        <ion-item color="transparent">
+          <ion-label position="floating">Enter Location</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <div class="checkout-items">
+      <ul class="items">
+        <li class="header">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="4" class="ion-align-self-start">
+                Item / Description
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-center">
+                Qty
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-end">
+                Price
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </li>
+        <li>
+          <ion-grid class="grid">
+            <ion-row>
+              <ion-col size="4" class="ion-align-self-start">
+               Jean(s)
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-center">
+                5
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-end">
+                R250
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </li>
+        <li>
+          <ion-grid class="grid">
+            <ion-row >
+              <ion-col size="4" class="ion-align-self-start">
+               T-shirt(s)
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-center">
+                2
+              </ion-col>
+              <ion-col size="4" class="ion-align-self-end">
+                R80
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </li>
+      </ul>
+      <div class="footer">
+        <ion-grid class="grid">
+          <ion-row>
+            <ion-col size="4" class="ion-align-self-start">
+            
+            </ion-col>
+            <ion-col size="4" class="ion-align-self-start">
+              Service fees:
+             </ion-col>
+            <ion-col size="4" class="ion-align-self-end">
+             R 20
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-grid class="grid">
+          <ion-row>
+            <ion-col size="4" class="ion-align-self-start">
+             
+            </ion-col>
+            <ion-col size="4" class="ion-align-self-start">
+              Total amount:
+             </ion-col>
+            <ion-col size="4" class="ion-align-self-end">
+             R 350
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+
+      </div>
+    </div>
+  </div>
+  <ion-button expand="block" color="primary" vertical="bottom">
+    Checkout
+  </ion-button>
+</ion-content>

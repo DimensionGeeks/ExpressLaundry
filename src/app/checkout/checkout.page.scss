@@ -1,0 +1,33 @@
+.checkout-content {
+	height: calc(100% - 67px);
+    overflow: hidden;
+	.location-description {
+		font-size: 10px;
+	}
+
+	.checkout-items {
+        height: calc(100% - 158px);
+		.footer {
+            border-top: 1px dashed #ccc;
+			.grid {
+                padding: 0;
+                font-size: 14px;
+			}
+		}
+		.items {
+			padding: 0;
+            list-style: none;
+            .grid {
+                padding: 0;
+                font-size: 12px;
+			}
+			.header {
+                border-bottom: 1px dashed #ccc;
+                font-weight: 500;
+                ion-grid{
+                    padding: 0;
+                }
+			}
+		}
+	}
+}
